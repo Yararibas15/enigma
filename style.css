@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 16px;
+    background-color:mediumpurple;
+    color:aqua;
+    font-family: Cambria, Cochin, georgia, 'Times New Roman', Times, serif;
+}
+
+.maquina {
+    max-width: 520px;
+    margin: 0 auto;
+    padding: 18px 12px;
+    background-color: beige;
+    color: cadetblue;
+    border:4px solid #1f1810;
+    border-radius: 14px;
+    box-shadow: 0 8px 0 #1f1f1f
+
+}
+
+h1 {
+    font:700 22px "Courier New", monospace;
+    font-size: 14px;
+    margin: 0 0 14px;
+    color:azure
+}
+
+.janelas {
+    display:flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 16px;
+
+}
+
+.janelas input {
+    width: 54px;
+    height: 54px;
+    text-align: center;
+    text-transform: uppercase;
+    font: 700 22px "courier new" monospace;
+    background-color: blue;
+    color: black;
+    border:3px solid#9a7a2e
+    border-radius: 6px;
+    
+}
+
+.fileira {
+    display:flex;
+    justify-content: center;
+}
+
+.lampadas, .tecla{
+    width: min(8.6vw, 42px);
+    height: min(8.6vw, 42px);
+    box-sizing: border-box;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font: 700 16px "Courier Nex", monospace;
+}
+
+.lampadas {
+    background-color: cadetblue;
+    color:aquamarine;
+    border: 2px;
+    transition: all .15s;
+
+}
+.lampada.acesa {
+    background-color: #ffc94d;
+    color: #232a31;
+    border-color: #ffc94d;
+    box-shadow: 0 0 14px 5px rgba(255, 201, 77, .8);
+}r
+
+
